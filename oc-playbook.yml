@@ -16,7 +16,7 @@
       - php-gd
 
   - name: install additional tools
-    dnf: name=dnf state=installed
+    dnf: name=bzip2 state=installed
 
   - name: set selinux permissive
     selinux: policy=targeted state=permissive
